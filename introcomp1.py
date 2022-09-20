@@ -1,3 +1,4 @@
+# Question 1
 nums = list(range(30,65,5))
 
 nums.sort(reverse=True)
@@ -7,6 +8,7 @@ nums.insert(0,x)
  
 print(nums)
 
+# Question 2
 
 e_list = []
 for number in range(0,21):
@@ -21,6 +23,8 @@ print(e_list[0])
 
 Sum=sum(e_list)
 print(Sum)
+
+# Question 3
 
 weather={"sunny":"play","rainy":"watch TV","cloudy":"walk"}
 for key, value in weather.items():
